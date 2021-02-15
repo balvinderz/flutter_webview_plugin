@@ -6,6 +6,7 @@
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider2"
+        tools:replace="android:authorities"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">
